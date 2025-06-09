@@ -3,4 +3,3 @@ uvicorn
 pillow
 numpy
 pytesseract
-python-multipart
