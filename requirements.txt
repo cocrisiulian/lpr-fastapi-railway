@@ -1,5 +1,9 @@
 fastapi
 uvicorn
-easyocr
 pillow
 numpy
+# Instalare torch explicit CPU, evită CUDA (GPU) pentru un fisier mai mic pentru a nu depasi limita de 4GB impusa de railway
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
+easyocr
